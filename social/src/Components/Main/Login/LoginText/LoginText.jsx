@@ -9,8 +9,8 @@ const LoginText = () => {
                 <h2>Welcome to "SSWA"!</h2>
                 <p>To look around plz use:</p>
                 <ul>
-                    <li>Login: "free@samuraijs.com"</li>
-                    <li>Pass: "free"</li>
+                    <li>Login: "smfqwerty@gmail.com"</li>
+                    <li>Pass: "123qweasdzxc"</li>
                 </ul>
                 thnx ;)
             </article>

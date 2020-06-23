@@ -134,7 +134,6 @@ type ToggleIsFetchingActionType = {
 }
 const toggleIsFetching = (fetching: boolean): ToggleIsFetchingActionType => ({type: TOGGLE_IS_FETCHING, fetching})
 
-
 /************************************************
 *   ThunkAction<R, S, E, A extends Action> = (  *
 *  dispatch: ThunkDispatch<S, E, A>,            *

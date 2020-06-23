@@ -1,0 +1,32 @@
+.ui__container {
+    width: 100%;
+    display: flex;
+}
+
+.buttons__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.buttons__send {
+    color: white;
+    background-color: #FF6E6E;
+    padding: 9px;
+}
+
+.buttons__clear {
+    margin-top: 5px;
+    color: white;
+    background-color: #FF6E6E;
+    padding: 9px;
+}
+
+.ui__area {
+    padding: 5px;
+    color: #060040;
+    width: 90%;
+}

@@ -1,0 +1,14 @@
+.status__container {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.status {
+    color: white;
+}
+
+.status__data {
+    margin-left: 5px;
+    color: lightblue;
+}

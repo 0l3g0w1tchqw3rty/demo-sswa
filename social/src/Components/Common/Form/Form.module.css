@@ -1,0 +1,19 @@
+.main__area{
+    width: 100%;
+}
+.main__area textarea{
+    height: 100%;
+    width: 100%;
+    resize: none
+}
+
+
+.main__area.error textarea{
+    padding: 5px;
+    color: #060040;
+
+    border: 2px solid red  ;
+}
+.error__fields{
+    border: red 2px solid;
+}

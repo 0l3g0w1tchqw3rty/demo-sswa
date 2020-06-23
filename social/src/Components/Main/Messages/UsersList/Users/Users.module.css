@@ -1,0 +1,27 @@
+.user__data {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(6, 0, 64, 0.3);;
+}
+
+.user__photo {
+    border: #060040 2px solid;
+    min-height: 50px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px;
+    margin: 5px 0;
+    text-align: center;
+    color: white;
+}
+
+.active {
+    color: #060040;
+}

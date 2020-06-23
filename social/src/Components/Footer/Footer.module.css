@@ -1,0 +1,25 @@
+.footer {
+    background-color: gray;
+    grid-area: footer;
+}
+
+.footer__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer__text a {
+    color: white;
+    font-weight: lighter;
+}
+
+.footer__text a:hover {
+    color: #060040;
+}

@@ -1,0 +1,9 @@
+.column__photo{
+    border: #060040 2px solid;
+}
+.column__photo img{
+    min-width: 58px;
+}
+.photo{
+    width: 80px;
+}

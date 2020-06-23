@@ -1,0 +1,11 @@
+.name__container{
+    margin-left: 5px;
+    display: flex;
+}
+.text__name{
+    color: white;
+}
+.text__data{
+    margin-left: 14px;
+    color: #060040;
+}

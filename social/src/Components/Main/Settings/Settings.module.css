@@ -1,0 +1,63 @@
+.main{
+    grid-area: main;
+    background-color: gray;
+    height: 100%;
+    padding: 10px;
+}
+.main__container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+}
+.main__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form h2{
+    margin-top: 10px;
+}
+.main__contacts,.main__description {
+    display: flex;
+    flex-direction: column;
+
+}
+.description__lf{
+    margin-top: 10px;
+    display: flex;
+}
+.contacts__social{
+    display: flex;
+    margin-top: 10px;
+    width: 320px;
+}
+.description__info{
+    display: flex;
+    margin-top: 10px;
+}
+
+.form{
+   margin-top: 10px;
+}
+.label{
+   display: flex;
+    justify-content: space-between;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.jobchb{
+    margin-left: 10px;
+}
+.submit{
+    margin-top: 10px;
+    color: white;
+    background-color: #FF6E6E;
+    padding: 9px;
+}
+.submit:hover{
+    color: #060040;
+}

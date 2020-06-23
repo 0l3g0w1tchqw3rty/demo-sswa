@@ -1,0 +1,23 @@
+.main__form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form__login input{
+    margin-left: 8px;
+}
+.form__pass{
+    margin-top: 10px;
+}
+.form__pass input{
+    margin-left: 10px;
+}
+.form__remember{
+    margin-top: 10px;
+}
+.form__remember input{
+    margin-left: 5px;
+}
+.form__logb{
+    margin-top: 10px;
+}

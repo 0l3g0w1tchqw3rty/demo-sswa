@@ -1,0 +1,17 @@
+.main__info {
+    display: grid;
+    grid-template-rows: minmax(15px, auto) minmax(100px, auto) minmax(30px, auto);
+    grid-template-columns: 1fr minmax(100px, auto) 1fr;
+    grid-template-areas: 'status status status' 'id photo name' 'job job job';
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(6, 0, 64, 0.3);
+}
+
+@media (max-width: 425px) {
+    .main__info {
+        border-right: 0;
+        border-left: 0;
+    }
+}

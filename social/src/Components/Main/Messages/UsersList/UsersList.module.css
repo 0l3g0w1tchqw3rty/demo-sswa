@@ -1,0 +1,12 @@
+.main__users {
+    margin-left: 5px;
+    background-color: gray;
+    grid-area: users;
+}
+
+.users__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

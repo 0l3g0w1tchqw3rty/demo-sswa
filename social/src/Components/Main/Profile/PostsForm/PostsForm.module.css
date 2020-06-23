@@ -1,0 +1,36 @@
+
+.post__ui {
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+}
+
+.button__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.send__button {
+    color: white;
+    background-color: #FF6E6E;
+    padding: 9px;
+}
+
+.clear__button {
+    color: white;
+    background-color: #FF6E6E;
+    margin-top: 5px;
+    padding: 9px;
+}
+
+.send__button:hover {
+    color: #060040;
+}
+
+.clear__button:hover {
+    color: #060040;
+}

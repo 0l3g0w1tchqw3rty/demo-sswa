@@ -1,0 +1,13 @@
+.main {
+    grid-area: main;
+}
+.main__container {
+    height: 100%;
+    border-left: 1px solid rgba(6, 0, 64, 0.3);
+    display: grid;
+    grid-template-columns: minmax(50px, 100px) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'users dialogs';
+    grid-column-gap: 5px;
+
+}

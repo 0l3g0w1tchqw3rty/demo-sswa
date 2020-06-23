@@ -1,0 +1,13 @@
+.info__name {
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #060040;
+    padding: 0 5px;
+}
+.info__name:hover{
+    cursor: default;
+}

@@ -1,0 +1,18 @@
+.main__dialogs {
+    grid-area: dialogs;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogs__window {
+    flex: 1 1 auto;
+    background-color: gray;
+    padding: 0 5px;
+}
+.dialogs__ui {
+    background-color: gray;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+
+}

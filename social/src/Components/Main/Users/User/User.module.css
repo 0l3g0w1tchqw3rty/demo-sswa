@@ -1,0 +1,29 @@
+.main__user {
+    margin-top: 5px;
+    max-width: 620px;
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width: 425px) {
+    .main__user {
+        border-left: 0;
+        border-right: 0;
+    }
+}
+
+.user__column {
+    padding: 5px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user__text {
+    min-width: 226px;
+    padding: 5px;
+
+    background-color: gray;
+}
+

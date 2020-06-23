@@ -1,0 +1,41 @@
+.main__count {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 5px 0;
+
+}
+
+.count__row {
+    display: flex;
+    justify-content: center;
+}
+
+.row__active {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.row__number {
+    margin-left: 10px;
+}
+
+.row__active:hover {
+    cursor: pointer;
+}
+
+.row__number:hover {
+    cursor: pointer;
+}
+
+.left {
+    margin-left: 20px;
+    width: 20px;
+}
+
+.right {
+    margin-right: 20px;
+    width: 20px;
+}

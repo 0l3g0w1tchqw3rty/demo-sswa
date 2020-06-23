@@ -1,0 +1,19 @@
+.main__contacts {
+   width: 100%;
+    padding: 0 10px;
+}
+
+.contacts__text h2 {
+    color: #060040;
+    font-weight: bold;
+}
+.contacts__text {
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__contacts:hover{
+    cursor: default;
+}

@@ -1,0 +1,28 @@
+.info__status {
+    background-color: gray;
+    grid-area: status;
+    height: 100%;
+    padding: 10px;
+}
+
+.status__row {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.status__text {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.status__data {
+    margin-left: 10px;
+    font-size: 17px;
+}
+.info__status:hover{
+    cursor: default;
+}

@@ -1,0 +1,15 @@
+.column__button{
+   margin-top: 5px;
+    width: 100%;
+    background-color: #FF6E6E;
+}
+.button__follow{
+    width: 100%;
+    text-align: center;
+    background-color: #FF6E6E;
+    color: white;
+    padding: 4px;
+}
+.button__follow:hover{
+    color: #060040;
+}

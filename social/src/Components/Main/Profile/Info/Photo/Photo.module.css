@@ -1,0 +1,9 @@
+.info__photo {
+    grid-area: photo;
+    background-color: gray;
+}
+
+.info__photo img {
+    height: 120px;
+    border: #060040 3px solid;
+}
